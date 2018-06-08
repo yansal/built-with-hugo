@@ -8,4 +8,4 @@ jobs:
       - image: cibuilds/hugo:latest
     steps:
       - checkout
-      - run: build-and-push-to-gh-pages.bash
+      - run: ./build-and-push-to-gh-pages.bash
