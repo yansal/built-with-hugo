@@ -12,4 +12,4 @@ jobs:
       - run: hugo
       - run: git config user.email "you@example.com" && git config user.name "Your Name"
       - run: cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
-      - run: git worktree add -B gh-pages public origin/gh-pages
+      - run: git push origin gh-pages
