@@ -1,4 +1,4 @@
-#!/bin/bash -eo pipefail
+#!/bin/bash -e
 
 rm -fr public
 git worktree add -B gh-pages public origin/gh-pages
