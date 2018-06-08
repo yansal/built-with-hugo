@@ -9,4 +9,5 @@ jobs:
     steps:
       - checkout
       - run: hugo
+      - run: git config user.email "you@example.com" && git config user.name "Your Name"
       - run: cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
