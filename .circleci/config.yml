@@ -4,8 +4,6 @@ jobs:
     branches:
       only:
         - master
-      ignore:
-        - gh-pages
     docker:
       - image: cibuilds/hugo:latest
     steps:
